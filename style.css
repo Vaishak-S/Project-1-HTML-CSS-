@@ -5,6 +5,7 @@
 }
 
 body {
+  margin:5px;
   font-family: "Merriweather", serif;
   background-color: #ebf2ff;
 }
@@ -149,8 +150,83 @@ body {
   height: 100%;
 }
 
+.updates__container{
+  
+  width: 100%;
+}
+
+.updates__text {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.updates__input__button{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap:10px;
+  width:100%;
+}
+
+.updates__input{
+  width:60%;
+  align-items:right;
+}
+
+.updates__button__container{
+  display: flex;
+  align-items:baseline;
+  justify-content: space-around;
+}
+.updates__button{
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  align-items: center;
+}
+
+#email__textbox{
+  border:2px solid rgb(218, 66, 91);
+  border-radius: 5px;
+  width:50%;
+  padding: 10px 5px;
+}
+
+.quote{
+  width: 100%;
+}
+
+.image__quote{
+  position:absolute;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__text{
+  position:relative;
+  font-size: large;
+  display: flex;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quote__image{
+  opacity: 0.85;
+}
+
 @media (min-width: 768px) {
-  .navbar {
+  .navbar{
     justify-content: space-between;
     padding: 2px 30px;
   }
