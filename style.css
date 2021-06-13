@@ -77,6 +77,9 @@ body {
   margin: 20px 0;
 }
 
+.explore__menu__container{
+  margin-top: 50px;
+}
 .explore__menu__text {
   font-size: 30px;
   margin-top: 50px;
@@ -129,13 +132,13 @@ body {
 .restaurant__image__1,
 .restaurant__image__4 {
   width: 100%;
-  height: 120px;
+  height: 100px;
 }
 
 .restaurant__image__2,
 .restaurant__image__3 {
   width: 120%;
-  height: 200px;
+  height: 170px;
 }
 
 .restaurant__1,
@@ -156,7 +159,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   .explore__menu__lists {
@@ -219,12 +222,16 @@ body {
     padding: 20px;
     font-size: 20px;
   }
+  .hero__container{
+    margin-bottom: 80px;
+  }
   .hero__description {
     width: 100%;
   }
   .hero__text {
     font-size: 50px;
   }
+  
   .explore__menu__lists {
     gap: 40px;
   }
