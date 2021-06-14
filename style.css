@@ -237,6 +237,7 @@ body {
 }
 
 .footer__container{
+  width: 100%;
   background-image: linear-gradient(
     to right,
     #ff512f 0%,
@@ -244,11 +245,15 @@ body {
     #ff512f 100%
   );
   margin-top:100px;
- border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
 .footer__text{
-  font-size: 70px;
+  width: 100%;
+  font-size: 60px;
   text-align: center;
   font-style: italic;
   color:#fff;
@@ -257,6 +262,7 @@ body {
 }
 
 .footer__para{
+  width: 100%;
   color: #fff;
   text-align: left;
   margin-left: 68px;
